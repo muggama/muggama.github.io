@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flex-Studio</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Flex-Studio">
+  <meta name="keywords" content="Flex-Studio, Flex, Studio, Flex Studio, Studio Flex">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark justify-content-lg-between flex-lg-wrap w-100">
+  <!-- logo -->
+      <a class="navbar-brand text-hide order-md-1" href="index.html">life STYLE Free PSD Website Tem<img src="images/logo.png"></a>
+  <!-- menu button -->
+      <button type="button" class="fs-menu-button order-md-3" onclick="menuShowFunction()">
+        <span class="fs-menu-b-item1" id="fs_menu_b_item1"></span>
+        <span class="fs-menu-b-item2" id="fs_menu_b_item2"></span>
+        <span class="fs-menu-b-item3" id="fs_menu_b_item3"></span>
+      </button>
+  <!-- search button -->
+      <button type="button" class="input-search d-xs-flex col-md-2 col-sm-12 col-md-7 col-lg-2 order-md-2 order-lg-4 my-3 ml-lg-5" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Search</button>
+  <!-- menu -->
+      <div class="order-md-4 order-lg-3" id="">
+        <ul class="h-menu" id="h_menu">
+          <li>
+            <div class="fs-menu-page">
+              <a href="index.html">HOME</a>
+              <!-- <div class="fs-dropdown-icon" id="fs-dropdown-icon1">
+                <span class="fs-span-icon"></span>
+              </div> -->
+            </div>
+            <!-- <div class="fs-menu-item" id="fs_menu_item1">
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+            </div> -->
+          </li>
+          <li>
+            <div class="fs-menu-page">
+              <a href="#">SERVICES</a>
+              <div class="fs-dropdown-icon" id="fs-dropdown-icon2" onclick="iconClickFunction(1)">
+                <span class="fs-span-icon" id="fs_span_icon2"></span>
+              </div>
+            </div>
+            <div class="fs-menu-item" id="fs_menu_item2">
+              <a href="#">Service 1</a>
+              <a href="#">Service 2</a>
+              <a href="#">Service 3</a>
+              <a href="#">Service 4</a>
+              <a href="#">Service 5</a>
+            </div>
+          </li>
+          <li>
+            <div class="fs-menu-page">
+              <a href="#">GALERY</a>
+              <div class="fs-dropdown-icon" id="fs-dropdown-icon3" onclick="iconClickFunction(2)">
+                <span class="fs-span-icon" id="fs_span_icon3"></span>
+              </div>
+            </div>
+            <div class="fs-menu-item" id="fs_menu_item3">
+              <a href="#">Gallery 1</a>
+              <a href="#">Gallery 2</a>
+              <a href="#">Gallery 3</a>
+              <a href="#">Gallery 4</a>
+              <a href="#">Gallery 5</a>
+            </div>
+          </li>
+          <li>
+            <div class="fs-menu-page fs-active">
+              <a href="about_us.html">ABOUT US</a>
+              <!-- <div class="fs-dropdown-icon" id="fs-dropdown-icon4">
+                <span class="fs-span-icon"></span>
+              </div> -->
+            </div>
+            <!-- <div class="fs-menu-item" id="fs_menu_item4">
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+              <a href="#">TEST</a>
+            </div> -->
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h2>
+        This is about us
+      </h2>
+      <p>test page...</p>
+    </section>
+  </header>
+  <footer class="d-md-flex center bg-dark p-5 fs-footer w-100">	
+		<article class="py-2 col-sm-12 col-md-3">
+			<a class="navbar-brand text-hide order-md-1" href="index.html">life STYLE Free PSD Website Tem<img src="images/logo.png"></a>
+		</article>
+		<article class="py-2 fs-contactUs col-sm-12 col-md-3">
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#lsContactUs" data-whatever="@getbootstrap">CONTACT US TODAY</button>
+		</article>
+		<nav class="f-links py-2 col-sm-12 col-md-3 col-lg-2">
+			<ul class="flex-sb-c m-0 justify-content-between w-100">
+				<li>
+					<a href="https://www.facebook.com/"><img src="images/facebook.svg"></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/"><img src="images/instagram.svg"></a>
+				</li>
+				<li>
+					<a href="https://www.pinterest.com/"><img src="images/pinterest.svg"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/"><img src="images/twitter.svg"></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/"><img src="images/youtube.svg"></a>
+				</li>
+			</ul>
+    </nav>
+</footer>
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+      <form class="d-sm-flex my-6 my-lg-0 col-12">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" autofocus>
+  
+      <button class="btn btn-outline-info my-2 my-sm-0 col-sm" type="submit">Search</button>
+      </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="lsContactUs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content p-3">
+      <form class="">
+        <div class="d-flex">
+          <div class="py-2 col-sm-12 col-md-6">
+          <label for="ls-firstName">First Name</label>
+          <input class="form-control" type="text" name="firstName" id="ls-firstName" value="" autofocus>
+          </div>
+  
+  
+          <div class="py-2 col-sm-12 col-md-6">
+          <label for="ls-lastName">Last Name</label>
+          <input class="form-control" type="text" name="ls-lastName" id="ls-lastName" value="">
+          </div>
+        </div>
+      
+      <div class="p-3">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="gender1" value="male" checked>
+          <label class="form-check-label" for="gender1">male</label>
+        </div>
+  
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="gender2" value="female">
+          <label class="form-check-label" for="gender2">female</label>
+        </div>
+      </div>
+      
+      <div class="p-3">
+        <label for="ls-Email">Email address</label>
+        <input type="email" class="form-control" id="ls-Email" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+  
+      <div class="p-3">
+        <label for="ls-textarea">message</label>
+        <textarea class="form-control" id="ls-textarea" rows="3"></textarea>
+      </div>
+  
+      <div class="d-flex justify-content-between px-3">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Send</button>
+        <button type="button" class="btn btn-outline-info my-2 my-sm-0" data-dismiss="modal">Close</button>
+      </div>
+      </form>
+      </div>
+    </div>
+  </div>
+<!-- <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+
+<!-- <script>
+  $('.modal').on('shown.bs.modal', function() {
+    $(this).find('[autofocus]').focus();
+  });
+  </script> -->
+<!-- <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> -->
+</body>
+</html>
