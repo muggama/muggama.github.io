@@ -5,3 +5,5 @@ My Site
 
 [Sensitive](https://muggama.github.io/Sensitive/ "tourist site")
 
+[Waxom](https://muggama.github.io/waxom/ "tourist site")
+
